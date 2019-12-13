@@ -1,4 +1,5 @@
 require "../spec/spec_helper.rb"
+require_relative "../lib/introduction.rb"
 
 def introduction(name)
   puts "Hi, my name is #{name}\n."
