@@ -1,7 +1,7 @@
 require "../spec/spec_helper.rb"
 require_relative "../lib/introduction.rb"
 
-def introduction(name)
+def introduction(name = "Josh")
   puts "Hi, my name is #{name}\n."
 end
 
