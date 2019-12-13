@@ -1,3 +1,5 @@
+require "../spec/spec_helper.rb"
+
 def introduction(name)
   puts "Hi, my name is #{name}\n."
 end
